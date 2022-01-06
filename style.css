@@ -1,5 +1,66 @@
 body{
-    font-family: 'Open Sans', sans-serif;}
+    font-family: 'Open Sans', sans-serif;
+    margin: 7%;
+    
+}
     .orange{
         color:orange;
     }
+    .explore{
+        text-decoration: none;
+        background-image:linear-gradient(red,orange);
+        font-weight: 900;
+        padding:10px;
+        color: aliceblue;
+        border-radius: 8px;
+    }
+    .flexible{
+        display:flex; 
+        width: 100%
+    }
+    section{
+        margin-bottom: 120px;
+    }
+
+    
+    
+    
+    .border-image{
+        border-left: 5px solid;
+        border-image: linear-gradient(red,orange);
+        border-image-slice: 1;
+
+    }
+    #align{
+        text-align: center;
+    }
+   .shadow{
+       box-shadow:35px 10px 10px gray;
+       padding: 7%;
+       
+   }
+   #illustration1{
+       background-image: url(illustrators/illustrator-1.png);
+       background-repeat:no-repeat;
+       background-size: 20%;
+       background-position:top;
+       
+   }
+   #illustration2{
+       background-image: url(illustrators/illustrator-2.png);
+       background-repeat:no-repeat;
+       background-size: 20%;
+       background-position:top;
+   }
+   #illustration3{
+       background-image: url(illustrators/illustrator-3.png);
+       background-repeat:no-repeat;
+       background-size: 20%;
+       background-position:top;
+   }
+   
+   
+    
+    
+
+        
