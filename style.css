@@ -1,6 +1,7 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-    margin: 7%;
+    margin: 10%;
+    
     
 }
     .orange{
@@ -17,10 +18,14 @@ body{
     .flexible{
         display:flex; 
         width: 100%
+        
     }
+
     section{
-        margin-bottom: 120px;
+        margin-bottom: 100px;
     }
+
+     
 
     
     
@@ -37,6 +42,7 @@ body{
    .shadow{
        box-shadow:35px 10px 10px gray;
        padding: 7%;
+       border-radius: 10px;
        
    }
    #illustration1{
@@ -57,7 +63,34 @@ body{
        background-repeat:no-repeat;
        background-size: 20%;
        background-position:top;
-   }
+    }
+    .code-pic{
+        width:50%;
+
+        
+    }
+    .back-img{
+        
+        background-image: url(shapes/shape-7.png);
+        background-repeat: no-repeat;
+        background-position:bottom;
+        background-size: 100px;}
+     .short{
+         background-image: url(shapes/shape-1.png);
+         background-repeat: no-repeat;
+         background-position:right;
+         background-size: 20%; 
+     } 
+        
+        
+
+    
+
+        
+    
+
+   
+       
    
    
     
