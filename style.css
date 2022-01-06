@@ -1,6 +1,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: 10%;
+    margin: 60px;
+
+    
+    margin-bottom: 0%;
     
     
 }
@@ -23,6 +26,7 @@ body {
 
     section{
         margin-bottom: 100px;
+        
     }
 
      
@@ -36,7 +40,7 @@ body {
         border-image-slice: 1;
 
     }
-    #align{
+    .align{
         text-align: center;
     }
    .shadow{
@@ -81,6 +85,33 @@ body {
          background-position:right;
          background-size: 20%; 
      } 
+     #pink{
+         background-image: linear-gradient(pink,gray);
+         margin: 7px;
+         padding: 25px;
+         border-radius: 30px;
+     }
+     #blue{
+         background-image: linear-gradient(rgb(99, 99, 165),azure);
+         margin:7px;
+         padding: 25px;
+         border-radius: 30PX;
+     }
+     #green{
+         background-image: linear-gradient(rgb(100, 107, 100),rgb(82, 107, 82));
+         margin:7px;
+         padding: 25px;
+         border-radius: 30PX;
+     }
+     footer {
+         background-color: black;
+         text-align: center;
+         color: darkgrey;
+         
+
+
+     }
+
         
         
 
